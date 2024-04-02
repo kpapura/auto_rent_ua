@@ -8,6 +8,7 @@ import ListItem from 'components/ListItem/ListItem';
 
 import { filterAdverts } from 'helpers/filterAdverts';
 import s from './List.module.css';
+import ScrollToTopButton from 'components/ScrollToTopButton/ScrollToTop';
 
 const List = () => {
   const dispatch = useDispatch();
@@ -29,8 +30,8 @@ const List = () => {
   const handleLoadMore = (e) => {
     e.preventDefault();
     dispatch(fetchByPaginationAdvertsThunk(page));
-    
   }
+
   return (
     <div className={s.advertsContainer}>
       <ul className={s.list}>
@@ -43,6 +44,7 @@ const List = () => {
           Load More
         </button>
       )}
+      <ScrollToTopButton/>
     </div>
   );
 };

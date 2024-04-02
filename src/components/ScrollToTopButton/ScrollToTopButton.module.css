@@ -1,0 +1,16 @@
+.scrollTo{
+    position: absolute;
+    right: -230px;
+    bottom: -70px;
+    border-radius: 50%;
+    background-color: rgb(52, 112, 255);
+    transition: background-color 0.3s, ;
+    &>button{
+        background-color: transparent;
+        border-style: none;
+        padding: 15px 12px;
+    }
+}
+.scrollTo:hover{
+    background-color: rgb(11, 68, 205);
+}

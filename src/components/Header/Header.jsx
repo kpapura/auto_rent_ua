@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import img from "../../images/logo.jpeg"
 import Navigation from 'components/Navigation/Navigation';
 
-import sprite from '../../icons/symbol-defs.svg';
 import s from './Header.module.css';
 
 const Header = () => {
@@ -12,11 +11,8 @@ const Header = () => {
       <div className={s.headerContainer}>
         <div className={s.logoBox}>
           <Link to="/">
-            <svg width="80" height="40">
-              <use xlinkHref={`${sprite}#icon-logo`}></use>
-            </svg>
+            <img src={img} width="150px" height="100px" alt="" />
           </Link>
-          <p>Auto Rent UA</p>
         </div>
         <Navigation />
       </div>
