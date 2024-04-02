@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/auto_rent_ua/static/css/main.aed9e238.css",
-    "main.js": "/auto_rent_ua/static/js/main.b7ded13a.js",
+    "main.css": "/auto_rent_ua/static/css/main.74776f5a.css",
+    "main.js": "/auto_rent_ua/static/js/main.7e22556d.js",
     "static/css/674.0f8975a6.chunk.css": "/auto_rent_ua/static/css/674.0f8975a6.chunk.css",
     "static/js/674.69ac159c.chunk.js": "/auto_rent_ua/static/js/674.69ac159c.chunk.js",
-    "static/css/195.024a5a98.chunk.css": "/auto_rent_ua/static/css/195.024a5a98.chunk.css",
-    "static/js/195.ee2fdf4b.chunk.js": "/auto_rent_ua/static/js/195.ee2fdf4b.chunk.js",
+    "static/css/357.1878bf0e.chunk.css": "/auto_rent_ua/static/css/357.1878bf0e.chunk.css",
+    "static/js/357.c0eaf8e8.chunk.js": "/auto_rent_ua/static/js/357.c0eaf8e8.chunk.js",
     "static/css/480.f5bdc012.chunk.css": "/auto_rent_ua/static/css/480.f5bdc012.chunk.css",
-    "static/js/480.65c3fdff.chunk.js": "/auto_rent_ua/static/js/480.65c3fdff.chunk.js",
+    "static/js/480.404f4674.chunk.js": "/auto_rent_ua/static/js/480.404f4674.chunk.js",
+    "static/js/316.40972a02.chunk.js": "/auto_rent_ua/static/js/316.40972a02.chunk.js",
     "static/js/464.0675f0ed.chunk.js": "/auto_rent_ua/static/js/464.0675f0ed.chunk.js",
-    "static/js/643.a2f8bcb3.chunk.js": "/auto_rent_ua/static/js/643.a2f8bcb3.chunk.js",
+    "static/js/371.5839b5a1.chunk.js": "/auto_rent_ua/static/js/371.5839b5a1.chunk.js",
     "static/media/Achievement.jpg": "/auto_rent_ua/static/media/Achievement.5104194fce2369c7b496.jpg",
     "static/media/Manrope-ExtraBold.ttf": "/auto_rent_ua/static/media/Manrope-ExtraBold.5b0ae7100ad1d12e53c9.ttf",
     "static/media/Manrope-SemiBold.ttf": "/auto_rent_ua/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
@@ -17,21 +18,23 @@
     "static/media/Manrope-Regular.ttf": "/auto_rent_ua/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
     "static/media/Manrope-Bold.ttf": "/auto_rent_ua/static/media/Manrope-Bold.47f6d7143da9d8c0e480.ttf",
     "static/media/Manrope-Light.ttf": "/auto_rent_ua/static/media/Manrope-Light.2bf511c25636c7d7a4ce.ttf",
-    "static/media/symbol-defs.svg": "/auto_rent_ua/static/media/symbol-defs.80876e93d87eea59bc3a4e5d97af8d0a.svg",
+    "static/media/logo.jpeg": "/auto_rent_ua/static/media/logo.03d964ba7e4f28a18025.jpeg",
+    "static/media/symbol-defs.svg": "/auto_rent_ua/static/media/symbol-defs.3f21d2952c9c090f1869159d3ceb20bb.svg",
     "index.html": "/auto_rent_ua/index.html",
-    "main.aed9e238.css.map": "/auto_rent_ua/static/css/main.aed9e238.css.map",
-    "main.b7ded13a.js.map": "/auto_rent_ua/static/js/main.b7ded13a.js.map",
+    "main.74776f5a.css.map": "/auto_rent_ua/static/css/main.74776f5a.css.map",
+    "main.7e22556d.js.map": "/auto_rent_ua/static/js/main.7e22556d.js.map",
     "674.0f8975a6.chunk.css.map": "/auto_rent_ua/static/css/674.0f8975a6.chunk.css.map",
     "674.69ac159c.chunk.js.map": "/auto_rent_ua/static/js/674.69ac159c.chunk.js.map",
-    "195.024a5a98.chunk.css.map": "/auto_rent_ua/static/css/195.024a5a98.chunk.css.map",
-    "195.ee2fdf4b.chunk.js.map": "/auto_rent_ua/static/js/195.ee2fdf4b.chunk.js.map",
+    "357.1878bf0e.chunk.css.map": "/auto_rent_ua/static/css/357.1878bf0e.chunk.css.map",
+    "357.c0eaf8e8.chunk.js.map": "/auto_rent_ua/static/js/357.c0eaf8e8.chunk.js.map",
     "480.f5bdc012.chunk.css.map": "/auto_rent_ua/static/css/480.f5bdc012.chunk.css.map",
-    "480.65c3fdff.chunk.js.map": "/auto_rent_ua/static/js/480.65c3fdff.chunk.js.map",
+    "480.404f4674.chunk.js.map": "/auto_rent_ua/static/js/480.404f4674.chunk.js.map",
+    "316.40972a02.chunk.js.map": "/auto_rent_ua/static/js/316.40972a02.chunk.js.map",
     "464.0675f0ed.chunk.js.map": "/auto_rent_ua/static/js/464.0675f0ed.chunk.js.map",
-    "643.a2f8bcb3.chunk.js.map": "/auto_rent_ua/static/js/643.a2f8bcb3.chunk.js.map"
+    "371.5839b5a1.chunk.js.map": "/auto_rent_ua/static/js/371.5839b5a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aed9e238.css",
-    "static/js/main.b7ded13a.js"
+    "static/css/main.74776f5a.css",
+    "static/js/main.7e22556d.js"
   ]
 }
