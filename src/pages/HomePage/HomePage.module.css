@@ -1,0 +1,137 @@
+.main{
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+}
+.advantages{
+width: 100%;
+padding: 50px 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    gap: 32px;
+    list-style: none;
+    &>li{
+        width: 350px;
+        height: 250px;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid rgb(213, 213, 218);
+        border-radius: 24px;
+        &>p{
+            max-width: 280px;
+            text-align: center;
+        }
+        &>h3{
+            margin: 0;
+        }
+    }
+}
+.imageBox{
+    height: 900px;
+    background-image: url("../../images/Achievement.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.title{
+    font-size: 60px;
+    width: 320px;
+    margin: 0;
+    color: white;
+    margin-left: 30px;
+}
+.desc{
+    height: 100%;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.history{
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(213, 213, 218);
+    border-radius: 24px;
+    padding: 10px;
+    text-align: center;
+}
+.upperCase{
+    width: 200px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+&>span{
+font-size: 20px;
+padding-bottom: 10px;
+}
+}
+.addInfo{
+    padding: 0 10px;
+    width: 500px;
+    background-color: rgb(18, 20, 23);
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    height: 100px;
+    width: 3px;
+    background-color: orange;
+    margin: 0 20px;
+}
+.contact{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   
+    align-items: center;
+    width: 30%;
+    height: 150px;
+    background: rgba(255, 255, 255, .35);
+    box-shadow: inset 0px 1px 10px rgba(35, 35, 35, .22);
+    backdrop-filter: blur(5.5px);
+    &>p{
+        font-size: 28px;
+        margin: 0;
+    }
+}
+
+.social{
+    display: flex;
+    gap: 30px;
+}
+.downBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &>svg{
+        fill:white;
+        position: absolute;
+        top: 800px;
+    }
+}

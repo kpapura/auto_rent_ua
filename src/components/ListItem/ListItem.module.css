@@ -1,0 +1,95 @@
+.imgBox{
+    position: relative;
+    width: 274px;
+    height: 268px;
+    overflow: hidden;
+    border-radius: 14px;
+    margin-bottom: 14px;
+}
+.img{
+  position: absolute;
+  left: -40px;
+  height: 100%;
+}
+.btnIcon{
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all .3s ease;
+  right: 0;
+  top: 0;
+  padding: 14px;
+  &>svg{
+    position: relative;
+    stroke:white;
+    fill: none;
+    transition: fill 0.3s, ;
+  }    
+    &>svg:hover {
+      stroke: none;
+      fill: #3470FF;
+      transform: scale(1.2);
+      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);    
+}
+}
+.active{
+  fill: #3470FF !important;
+  stroke: none !important;
+  transform: scale(1.2) !important;
+}
+.item{
+  max-width: 274px;
+  max-height: 426px;
+}
+.btn{
+  width: 100%;
+  height: 44px;
+  background-color: rgb(52, 112, 255);
+  color: white;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 24px;
+  border-style: none;
+  transition: background-color 0.3s, ;
+}
+.btn:hover{
+    background-color: rgb(11, 68, 205);
+}
+.title{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(18, 20, 23);
+  &>span{
+    color: rgb(52, 112, 255);
+  }
+}
+.titleBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.desc{
+  max-height: 18px;
+  flex-wrap: nowrap;
+  max-width: 274px;
+  overflow: hidden;
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  color: rgba(18, 20, 23, 0.5);
+  font-size: 12px;
+  font-weight: 400;
+  gap: 6px;
+  &>p{
+  max-height: 18px;
+  margin: 0;
+  color: rgba(18, 20, 23, 0.5);
+  font-size: 12px;
+  font-weight: 400;  
+  overflow: hidden;
+  }
+}

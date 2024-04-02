@@ -1,0 +1,83 @@
+.react-select-make {
+    margin-top: 8px;
+    z-index: 999 !important;
+}
+.react-select-rentalPrice {
+    margin-top: 8px;
+}
+.react-select-rentalPrice .react-select__control{
+    height: 48px !important;
+    width: 125px !important;
+    border-radius: 14px;
+    background-color: rgb(247, 247, 251) !important;
+    border-style:none;
+}
+.react-select-make .react-select__control{
+    height: 48px !important;
+    width: 224px !important;
+    border-radius: 14px;
+    background-color: rgb(247, 247, 251) !important;
+    border-style: none;
+}
+.label{
+    color: rgb(138, 138, 137);
+    font-size: 14px;
+    font-weight: 500;
+}
+.selectContainer{
+    height: 74px;
+}
+
+.react_select-make .react-select__menu{
+    z-index: 999 !important;
+}
+.react-select__control{
+    color: rgb(18, 20, 23) !important;
+    position: relative !important;
+
+}
+ .react-select__menu {
+    position: absolute !important;
+     font-size: 16px;
+     font-weight: 500;
+     color: rgba(18, 20, 23, 0.2) !important;
+     background-color: rgb(255, 255, 255) !important;
+     z-index: 9999 !important;
+     border: 1px solid rgba(18, 20, 23, 0.05) !important;
+     border-radius: 14px !important;
+ }
+ .react-select__option {
+     background-color: transparent !important;
+     color: rgba(18, 20, 23, 0.2) !important;
+ }
+  .react-select__option--is-focused {
+      color:rgb(18, 20, 23) !important;
+  }
+
+ .react-select__control .react-select__placeholder {
+     color: rgb(18, 20, 23) !important;
+     font-size: 18px !important;
+     font-weight: 500 !important;
+ }
+
+.react-select__value-container{
+    height: 48px !important;
+    padding: 14px 0px 14px 18px !important;
+}
+.react-select__input-container{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.react-select__single-value{
+    color: rgb(18, 20, 23) !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+.react-select__indicator-separator{
+    width: 0px !important;
+}
+.react-select__dropdown-indicator{
+    color: rgb(18, 20, 23) !important;
+}

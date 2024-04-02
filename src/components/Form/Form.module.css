@@ -1,0 +1,90 @@
+.formContainer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  position: absolute;
+  z-index: 100;
+  max-width: 860px;
+  border-radius: 14px;
+}
+.inputContainer {
+  width: 320px;
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  & > label {
+    color: rgb(138, 138, 137);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+}
+
+.box {
+  height: 48px;
+  & > input:nth-child(1) {
+    padding: 18px 0 10px 24px;
+    width: 135px;
+    height: 48px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 0px;
+    border-style: none;
+    border-right: 1px solid rgb(247, 247, 251);
+  }
+  & > input:nth-child(2) {
+    padding: 18px 0 10px 24px;
+    width: 135px;
+    height: 48px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 14px;
+    border-style: none;
+    border-left: 1px solid rgb(247, 247, 251);
+  }
+}
+.input {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(18, 20, 23);
+  background-color: rgb(247, 247, 251);
+}
+.input::placeholder {
+  color: rgb(18, 20, 23) !important;
+  font-size: 18px;
+  padding: 0 !important;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  height: 74px;
+  align-items: flex-end;
+  & > button {
+    background-color: rgb(52, 112, 255);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-style: none;
+    height: 48px;
+    width: 136px;
+    border-radius: 12px;
+    transition: background-color 0.3s,;
+  }
+    &>button:hover {
+      background-color: rgb(11, 68, 205);
+    }
+}

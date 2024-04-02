@@ -1,0 +1,37 @@
+.favList {
+    width: 1280px;
+    flex-direction: column;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    padding: 140px 0 0;
+}
+.list {
+    padding-left: 0;
+    width: 1184px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 29px;
+    row-gap: 50px;
+    list-style: none;
+    margin-bottom: 100px;
+}
+.empty{
+    margin: 0 auto;
+    margin-top: 100px;
+    color: rgb(18, 20, 23);
+}
+.link{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(52, 112, 255);
+    color: white;
+    border-style: none;
+}

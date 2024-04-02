@@ -1,0 +1,37 @@
+.navContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    height: 40px;
+    display: flex;
+    position: relative;
+}
+.navBar{
+  display: flex;
+  justify-content: center;
+  column-gap: 32px;
+}
+.navLink{
+  border: 1px solid black;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s, ;
+}
+.navLink:hover{
+  background-color: rgb(52, 112, 255);
+  border-style: none;
+}
+
+.active{
+  background-color: rgb(52, 112, 255);
+  color: white;
+  border-style: none;
+  transition: background-color 0.3s, ;
+}
+.active:hover{
+  background-color: rgb(11, 68, 205);
+  border-style: none;
+}
